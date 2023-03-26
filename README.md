@@ -1,3 +1,3 @@
-#GDSC-AASTU Frontend
+<h1>GDSC-AASTU Frontend</h1>
 
-<h1>Projects repository</h1>
+<h2>Projects repository</h2>
