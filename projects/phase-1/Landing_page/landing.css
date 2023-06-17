@@ -19,11 +19,11 @@ img{
 }
 p1 {
     display: flex;
-    background-color:#8fe3ff;
+    background-color:#86faf4;
     margin: 0% 10% 0% 10%;
     font-family:Verdana, Geneva, sans-serif;
     text-align: justify;
-    padding: 10px;
+    padding: 15px;
     font-size: 12px;
 }
 body{
