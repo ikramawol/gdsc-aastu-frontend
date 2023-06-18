@@ -1,0 +1,21 @@
+*{
+    background-color: rgb(31, 30, 30);
+}
+.title{
+    color: rgb(241, 248, 248);
+    margin: 40px 90px 0 90px;
+    font-family: poppins;
+    font-weight:bolder;
+    
+}
+span {
+    font-size: x-large;
+    color:rgb(4, 141, 141);
+   
+}
+p {
+    text-align: center;
+    color: #ffffff;
+    font-family: poppins;
+}
+
