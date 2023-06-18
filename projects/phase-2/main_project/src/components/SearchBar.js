@@ -20,6 +20,7 @@ function SearchBar() {
       console.log(error);
     }
   }
+   
 
  
   
@@ -33,10 +34,9 @@ function SearchBar() {
             <button onClick={searchPhotos}>Search</button> 
           </form>
         </div>
-      <h3>Search Result for {searchTerm.toUpperCase()}</h3>
+      <h3>Search Result for {searchTerm ? <span>{(searchTerm.toUpperCase())}</span> : <span>None</span>}</h3>
       
       <div className='image-grid'>
-        
         {photos.map(photo =>(
         <img  height= '200px' weight ='220px ' key={(photo.id)} src={photo.urls.regular} alt={photo.description}/>
       ))}
@@ -48,5 +48,4 @@ function SearchBar() {
 
 
 export default SearchBar
-
 
